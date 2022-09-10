@@ -1,0 +1,39 @@
+{
+  "name": "babbage-rpuzzle",
+  "version": "0.1.0",
+  "description": "A simple library to help you create, sign and spend any kind of R Puzzle.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: Tests coming soon (tm)\" && exit 1",
+    "build": "webpack index.js --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/p2ppsr/babbage-rpuzzle.git"
+  },
+  "author": "Dean Little",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/p2ppsr/babbage-rpuzzle/issues"
+  },
+  "homepage": "https://github.com/p2ppsr/babbage-rpuzzle",
+  "peerDependencies": {
+    "babbage-bsv": "^0.1.0"
+  },
+  "devDependencies": {
+    "terser-webpack-plugin": "^3.0.1",
+    "webpack": "4.29.3",
+    "webpack-cli": "3.2.3"
+  },
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "tests"
+  },
+  "unpkg": "rpuzzle.min.js",
+  "keywords": [
+    "BSV",
+    "RPuzzle"
+  ]
+}
