@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/p2ppsr/babbage-rpuzzle",
   "peerDependencies": {
-    "babbage-bsv": "^0.1.0"
+    "babbage-bsv": "^0.2.1"
   },
   "devDependencies": {
     "terser-webpack-plugin": "^3.0.1",
